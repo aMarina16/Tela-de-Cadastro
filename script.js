@@ -7,7 +7,7 @@ botaocad.addEventListener('click', function(event) {
     const senha = document.getElementById('senha').value;
     const confirmacao = document.getElementById('confirmacao-senha').value;
 
-    if (!nome || !email || !senha ||confirmacao) {
+    if (!nome || !email || !senha ||!confirmacao) {
         alert('Por favor, preencha todas as informações.');
         event.preventDefault();
     } else {
